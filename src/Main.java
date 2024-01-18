@@ -53,6 +53,6 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        listPaths(homePath, "", 2, "  │", "   ");
+        listPaths(args[0], "", 2, "  │", "   ");
     }
 }
